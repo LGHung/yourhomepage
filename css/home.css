@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.taskbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.page_container{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 100px;
+}
+.mini_page{
+    margin-left: 10px;
+    text-align: center;
+    line-height: 45px;
+    
+}
+.logo_container img{
+    max-height: 100px;
+}
+.mini_page p{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+}
+.mini_page :hover{
+    text-decoration: underline;
+    color: gray;
+}
+.mid_banner{
+    background-color: gray;
+    height: 400px;
+    margin-top: 40px;
+}
+.after_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.after_banner_mini{
+    font-size: 40px;
+    width: 248px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    border: inset black;
+    
+}
+.line_content{
+    width: 60%;
+    height: 200px;
+    border: solid black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+.image_holder{
+    height: 110%;
+    width: 30%;
+    background-color: gray;
+    float: left;
+}
+.text_holder{
+    width: 60%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.mid_heading{
+    text-align: center;
+}
+.get_people_login{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button_skin{
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    
+}
+.get_people_login{
+    border: solid black;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+#hedd{
+    margin-top: 50px;
+} 
+.after_banner_mini img{
+    width: auto;
+    height: 100%
+}
+.mid_img{
+    width: 100%;
+    max-height: 100%;
+}
+.footers{
+    background-color: gray;
+    width: 100%;
+    height: 200px;
+    margin-top: 70px;
+}
+footer{
+    margin: 0;
+    padding: 0;
+}
+.mid_imgs{
+    height: 100%;
+    width: auto;
+}
